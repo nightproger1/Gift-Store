@@ -1,0 +1,14 @@
+.header__button{
+  margin: 0;
+  padding: 0px 20px;
+  height: 44px;
+  border: 1px solid #F7941E;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #F7941E;
+  background-color: transparent;
+}

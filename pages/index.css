@@ -1,0 +1,40 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+@import url(../blocks/root/root.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__item/header__item.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__button/header__button.css);
+
+
+
+
+
+
+
+
+
+.header__menu {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+}
+
+.header__menu-item {
+  margin-right: 31px;
+}
+
+.header__menu-item:last-child {
+  margin-right: 0;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+
