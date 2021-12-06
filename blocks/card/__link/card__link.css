@@ -1,0 +1,13 @@
+.card__link {
+  margin: 0 0 24px 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #202020;
+  text-decoration: none;
+}
+
+.card__link:hover {
+  border-bottom: 1px solid #000;
+}

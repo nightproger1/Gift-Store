@@ -1,0 +1,21 @@
+.cta__button-choose {
+  margin: 0;
+  padding: 0px 30px;
+  width: 256px;
+  height: 50px;
+  border: 1px solid #F7941E;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #000;
+}
+
+.cta__button-choose:hover {
+  cursor: pointer;
+  color: #000;
+  background-color: #fff;
+}

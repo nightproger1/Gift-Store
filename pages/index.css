@@ -15,9 +15,45 @@
 @import url(../blocks/hero/__paragraph/hero__paragraph.css);
 @import url(../blocks/hero/__button/hero__button.css);
 @import url(../blocks/hero/__image-container/hero__image-container.css);
+@import url(../blocks/hero/__image/hero__image.css);
 
 @import url(../blocks/feature/feature.css);
+@import url(../blocks/feature/__image/feature__image.css);
 @import url(../blocks/feature/__content/feature__content.css);
 @import url(../blocks/feature/__title/feature__title.css);
 @import url(../blocks/feature/__paragraph/feature__paragraph.css);
 @import url(../blocks/feature/__button/feature__button.css);
+
+@import url(../blocks/posts/posts.css);
+@import url(../blocks/posts/__title/posts__title.css);
+@import url(../blocks/posts/__paragraph/posts__paragraph.css);
+
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__img/card__img.css);
+@import url(../blocks/card/__photo/card__photo.css);
+@import url(../blocks/card/__media/card__media.css);
+@import url(../blocks/card/__paragraph/card__paragraph.css);
+@import url(../blocks/card/__link/card__link.css);
+
+@import url(../blocks/cta/cta.css);
+@import url(../blocks/cta/__description/cta__description.css);
+@import url(../blocks/cta/__question/cta__question.css);
+@import url(../blocks/cta/__paragraph/cta__paragraph.css);
+@import url(../blocks/cta/__button/cta__button.css);
+@import url(../blocks/cta/__button-choose/cta__button-choose.css);
+@import url(../blocks/cta/__button-work/cta__button-work.css);
+
+@import url(../blocks/blog/blog.css);
+@import url(../blocks/blog/__title/blog__title.css);
+@import url(../blocks/blog/__paragraph/blog__paragraph.css);
+@import url(../blocks/blog/__description/blog__description.css);
+@import url(../blocks/blog/__subcribtion/blog__subcribtion.css);
+@import url(../blocks/blog/__author/blog__author.css);
+@import url(../blocks/blog/__idea/blog__idea.css);
+@import url(../blocks/blog/__link/blog__link.css);
+@import url(../blocks/blog/__cards/blog__cards.css);
+@import url(../blocks/blog/__card/blog__card.css);
+@import url(../blocks/blog/__header/blog__header.css);
+@import url(../blocks/blog/__text/blog__text.css);
+@import url(../blocks/blog/__link-card/blog__link-card.css);

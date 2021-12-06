@@ -1,0 +1,8 @@
+.blog__author {
+  margin: 63px 0 27px 78px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140.62%;
+  /* Для красоты */
+  letter-spacing: .5px;
+}

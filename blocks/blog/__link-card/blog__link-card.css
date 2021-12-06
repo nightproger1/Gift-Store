@@ -1,0 +1,12 @@
+.blog__link-card {
+  margin: 0;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140.62%;
+  color: #202020;
+  text-decoration: none;
+}
+
+.blog__link-card:hover {
+  border-bottom: 1px solid #000;
+}

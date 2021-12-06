@@ -1,0 +1,6 @@
+.blog__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 570px);
+  grid-column-gap: 30px;
+  justify-content: center;
+}
