@@ -1,0 +1,20 @@
+.hero__button {
+  margin: 0;
+  padding: 0px 35px;
+  height: 60px;
+  border: 1px solid #F7941E;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #F7941E;
+}
+
+.hero__button:hover {
+  cursor: pointer;
+  background-color: #FFBB89;
+  border: 1px solid #FFBB89;
+}

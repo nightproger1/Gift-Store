@@ -1,0 +1,10 @@
+.header__link {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.header__link:hover {
+  border-bottom: 1px solid #000
+}
