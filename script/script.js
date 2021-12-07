@@ -1,10 +1,27 @@
-const blogSub = document.querySelector('.blog__subscription');
-const blogLink = document.querySelector('.blog__link');
+const popupBuy = document.querySelector('.popup');
+const buttonHeroOpen = document.querySelector('.hero__button');
+const buttonCtaOpen = document.querySelector('.cta__button-choose');
+const buttonPopupClose = document.querySelector('.popup__close');
 
-blogSub.addEventListener('mouseenter', function () {
-    blogLink.classList.add('blog__link_theme_white');
-});
+function openPopup (popup) {
+  popup.classList.add('popup_active');
+  document.addEventListener('keydown', closePopupESC);
+}
 
-blogSub.addEventListener('mouseleave', function () {
-    blogLink.classList.remove('blog__link_theme_white');
-});
+function closePopup (popup) {
+  popup.classList.remove('popup_active');
+  document.removeEventListener('keydown', closePopupESC);
+}
+
+function closePopupESC(event) {
+  const activePopup = document.querySelector('.popup_active');
+   if (event.key === 'Escape') {
+    closePopup(activePopup);
+  }
+}
+
+
+
+buttonHeroOpen.addEventListener('click', () => openPopup(popupBuy));
+buttonCtaOpen.addEventListener('click', () => openPopup(popupBuy));
+buttonPopupClose.addEventListener('click', () => closePopup(popupBuy));
