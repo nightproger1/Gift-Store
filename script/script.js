@@ -1,6 +1,7 @@
 const popupBuy = document.querySelector('.popup');
 const buttonHeroOpen = document.querySelector('.hero__button');
 const buttonCtaOpen = document.querySelector('.cta__button-choose');
+const buttonHeaderOpen = document.querySelector('.header__button');
 const buttonPopupClose = document.querySelector('.popup__close');
 
 function openPopup (popup) {
@@ -24,4 +25,5 @@ function closePopupESC(event) {
 
 buttonHeroOpen.addEventListener('click', () => openPopup(popupBuy));
 buttonCtaOpen.addEventListener('click', () => openPopup(popupBuy));
+buttonHeaderOpen.addEventListener('click', () => openPopup(popupBuy));
 buttonPopupClose.addEventListener('click', () => closePopup(popupBuy));
