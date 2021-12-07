@@ -1,6 +1,15 @@
 .popup {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease;
+  position: fixed;
+  top: 25%;
+  right: 0;
+  bottom: 0;
+  left: 25%;
+  background: rgba(0, 0, 0, 0.5);
   width: 1000px;
+  height: 580px;
   display: grid;
   grid-template-columns: 350px 650px;
-  border: 1px solid red;
 }
