@@ -1,0 +1,7 @@
+.popup__checkbox {
+  display: grid;
+  grid-template-columns: repeat(3, 155px);
+  grid-template-rows: repeat(3, 26px);
+  row-gap: 15px;
+  column-gap: 50px;
+}

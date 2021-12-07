@@ -1,0 +1,8 @@
+.popup__checkbox-input {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid #FF862E;
+  box-sizing: border-box;
+}
+

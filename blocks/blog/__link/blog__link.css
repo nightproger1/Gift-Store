@@ -1,0 +1,12 @@
+.blog__link {
+  margin: 0 0 49px 78px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140.62%;
+  text-decoration: none;
+  color: #fff;
+}
+
+.blog__link:hover {
+  border-bottom: 1px solid #000;
+}

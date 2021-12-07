@@ -1,0 +1,6 @@
+.popup {
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 350px 650px;
+  border: 1px solid red;
+}
